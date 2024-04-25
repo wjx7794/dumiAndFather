@@ -42,7 +42,7 @@ toc: content
 
 ## 谁在使用
 
-<!-- <WhoAreUsing></WhoAreUsing> -->
+<WhoAreUsing></WhoAreUsing>
 
 ## 反馈与共建
 
