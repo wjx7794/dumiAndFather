@@ -19,7 +19,8 @@
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
     "prepare": "husky install && dumi setup",
     "prepublishOnly": "father doctor && npm run build",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "deploy": "gh-pages -d docs-dist"
   },
   "commitlint": {
     "extends": [
@@ -52,6 +53,7 @@
     "dumi": "^2.2.13",
     "eslint": "^8.23.0",
     "father": "^4.1.0",
+    "gh-pages": "^6.1.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",

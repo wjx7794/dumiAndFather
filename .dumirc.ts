@@ -1,6 +1,8 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
+  base: '/dumiAndFather/',
+  publicPath: '/dumiAndFather/',
   outputPath: 'docs-dist',
   // 主题配置项
   themeConfig: {
