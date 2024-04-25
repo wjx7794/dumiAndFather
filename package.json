@@ -1,8 +1,19 @@
 {
-  "name": "xz",
+  "name": "xz-components",
   "version": "0.0.1",
-  "description": "A react library developed with dumi",
+  "private": false,
+  "description": "A library of react components",
+  "keywords": [
+    "React",
+    "Component"
+  ],
+  "homepage": "https://wjx7794.github.io/dumiAndFather",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wjx7794/dumiAndFather"
+  },
   "license": "MIT",
+  "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -11,6 +22,7 @@
   "scripts": {
     "build": "father build",
     "build:watch": "father dev",
+    "deploy": "gh-pages -d docs-dist",
     "dev": "dumi dev",
     "docs:build": "dumi build",
     "doctor": "father doctor",
@@ -19,8 +31,7 @@
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
     "prepare": "husky install && dumi setup",
     "prepublishOnly": "father doctor && npm run build",
-    "start": "npm run dev",
-    "deploy": "gh-pages -d docs-dist"
+    "start": "npm run dev"
   },
   "commitlint": {
     "extends": [
@@ -72,6 +83,5 @@
   },
   "authors": [
     "Jack"
-  ],
-  "private": false
+  ]
 }
