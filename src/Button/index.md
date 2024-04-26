@@ -12,7 +12,7 @@ group:
 This is an example component for Button!!.
 
 ```jsx
-import { Button } from 'xz';
+import { Button } from 'xz-components';
 
 export default () => <Button title="Hello dumi!" />;
 ```

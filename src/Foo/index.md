@@ -12,7 +12,7 @@ group:
 This is an example component for Foo!!.
 
 ```jsx
-import { Foo } from 'xz';
+import { Foo } from 'xz-components';
 
 export default () => <Foo title="Hello dumi!" />;
 ```

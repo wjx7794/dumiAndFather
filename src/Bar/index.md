@@ -12,7 +12,7 @@ group:
 This is an example component for Bar!!.
 
 ```jsx
-import { Bar } from 'xz';
+import { Bar } from 'xz-components';
 
 export default () => <Bar title="Hello dumi!" />;
 ```
